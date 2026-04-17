@@ -1,6 +1,6 @@
-# 🚀 HNG Stage 1 – Simple API Deployment
+#  HNG Stage 1 – Simple API Deployment
 
-## 📌 Overview
+##  Overview
 
 This project is a minimal REST API built as part of the HNG Internship Stage 1 task.
 
@@ -8,7 +8,7 @@ The goal is not just to build an API, but to demonstrate an understanding of how
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * **Node.js** – runtime environment
 * **Express.js** – backend framework
@@ -18,7 +18,7 @@ The goal is not just to build an API, but to demonstrate an understanding of how
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 Client Request → Nginx (Port 80) → Node App (Port 3000)
 
@@ -28,7 +28,7 @@ Client Request → Nginx (Port 80) → Node App (Port 3000)
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ```bash
 git clone https://github.com/ahlbertng/my-api.git
@@ -45,7 +45,7 @@ http://localhost:3000
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### GET /
 
@@ -79,7 +79,7 @@ http://localhost:3000
 
 ---
 
-## 🌍 Live Deployment
+##  Live Deployment
 
 Base URL:
 
@@ -95,7 +95,7 @@ Endpoints:
 
 ---
 
-## 🔧 Deployment Process (What I Actually Did)
+##  Deployment Process (What I Actually Did)
 
 1. Built API locally using Express
 2. Tested endpoints with curl
@@ -108,7 +108,7 @@ Endpoints:
 
 ---
 
-## 🧠 Key Takeaways
+##  Key Takeaways
 
 * Understanding how services run on ports
 * Importance of reverse proxy in production
@@ -117,7 +117,7 @@ Endpoints:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * All endpoints return **JSON**
 * HTTP status code is **200**
