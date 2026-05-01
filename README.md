@@ -71,9 +71,9 @@ http://localhost:3000
 
 ```json
 {
-  "name": "Ahlbert [Your Full Name]",
+  "name": "[Your Full Name]",
   "email": "your-email@example.com",
-  "github": "https://github.com/ahlbertng"
+  "github": "https://github.com/username"
 }
 ```
 
