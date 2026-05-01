@@ -1,8 +1,8 @@
-#  HNG Stage 1 – Simple API Deployment
+#  Simple API Deployment
 
 ##  Overview
 
-This project is a minimal REST API built as part of the HNG Internship Stage 1 task.
+This project is a minimal REST API
 
 The goal is not just to build an API, but to demonstrate an understanding of how backend services are deployed in a production-like environment using a reverse proxy and process management.
 
@@ -77,14 +77,6 @@ http://localhost:3000
 }
 ```
 
----
-
-##  Live Deployment
-
-Base URL:
-
-```
-http://your-server-ip
 ```
 
 Endpoints:
