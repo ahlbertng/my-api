@@ -6,8 +6,6 @@ This project is a minimal REST API
 
 The goal is not just to build an API, but to demonstrate an understanding of how backend services are deployed in a production-like environment using a reverse proxy and process management.
 
----
-
 ##  Tech Stack
 
 * **Node.js** – runtime environment
@@ -16,8 +14,6 @@ The goal is not just to build an API, but to demonstrate an understanding of how
 * **PM2** – process manager (keeps app alive)
 * **Ubuntu VPS** – hosting environment
 
----
-
 ##  Architecture
 
 Client Request → Nginx (Port 80) → Node App (Port 3000)
@@ -25,8 +21,6 @@ Client Request → Nginx (Port 80) → Node App (Port 3000)
 * The Node.js app runs on a **private port (3000)**
 * Nginx handles **public traffic (port 80)**
 * PM2 ensures the service **stays alive after crashes or reboot**
-
----
 
 ##  How to Run Locally
 
@@ -43,8 +37,6 @@ App runs on:
 http://localhost:3000
 ```
 
----
-
 ##  API Endpoints
 
 ### GET /
@@ -55,8 +47,6 @@ http://localhost:3000
 }
 ```
 
----
-
 ### GET /health
 
 ```json
@@ -64,8 +54,6 @@ http://localhost:3000
   "message": "healthy"
 }
 ```
-
----
 
 ### GET /me
 
